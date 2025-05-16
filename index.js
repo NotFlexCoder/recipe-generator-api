@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 
 const app = express();
 
-const BASE = "https://recipe-generator-api-eta.vercel.app";
+const BASE = "https://recipe-generator-api-tau.vercel.app";
 
 app.get("/random", async (req, res) => {
   const response = await fetch(`${BASE}/random`);
